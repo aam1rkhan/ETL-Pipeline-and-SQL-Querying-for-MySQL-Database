@@ -1,7 +1,7 @@
 # ETL-Pipeline-and-SQL-Querying-for-MySQL-Database
 The objective of this project is to build an ETL (Extract, Transform, Load) pipeline to import data from CSV files into a relational MySQL database.
 
-📂 Project Structure
+## 📂 Project Structure
 
 This project involves the following steps:
 
@@ -18,7 +18,7 @@ This project involves the following steps:
 6) SQL Querying and Data Analysis
 
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 1) Python (pandas, MySQL Connector, SQLAlchemy)
 
@@ -26,7 +26,7 @@ This project involves the following steps:
 
 3) CSV Files (customers.csv, products.csv, orders.csv, payments.csv)
 
-📋 Database Schema
+## 📋 Database Schema
 
 The database consists of four tables:
 
@@ -38,7 +38,7 @@ The database consists of four tables:
 
 4) Payments
 
-🔑 Schema Constraints
+## 🔑 Schema Constraints
 
 1) Primary Keys are set for all tables.
 
@@ -50,7 +50,7 @@ The database consists of four tables:
 ![ER Diagram](https://github.com/user-attachments/assets/5319adef-5368-42ca-95a8-670a55cf5f56)
 
 
-📥 Data Extraction
+## 📥 Data Extraction
 
 1) CSV files are read using Python (pandas, MySQL Connector, SQLAlchemy) or MySQL Workbench Import Wizard.
 
@@ -58,13 +58,13 @@ The database consists of four tables:
 
 3) Removing duplicate email values in Customers table if present.
 
-🔄 Data Transformation
+## 🔄 Data Transformation
 
 1) Ensuring data integrity before loading (e.g., order_id in Payments references an actual order from Orders).
 
 2) Converting data types where necessary.
 
-📤 Data Loading
+## 📤 Data Loading
 
 Data is inserted using:
 
@@ -75,9 +75,9 @@ Data is inserted using:
 3) Python scripts with MySQL Connector.
 
 
-📊 Data Analysis (SQL Queries)
+## 📊 Data Analysis (SQL Queries)
 
-(I) Basic Queries
+## (I) Basic Queries
 
 1) Retrieve all customer details.
 
@@ -85,7 +85,7 @@ Data is inserted using:
 
 3) Find all products that belong to the ‘Electronics’ category.
 
-(II) Intermediate Queries (Joins & Aggregations)
+## (II) Intermediate Queries (Joins & Aggregations)
 
 1) Total number of orders placed by each customer.
 
@@ -97,7 +97,7 @@ Data is inserted using:
 
 5) Retrieve completed payments with associated order details.
 
-(III) Advanced Queries
+## (III) Advanced Queries
 
 1) Top 5 customers by spending.
 
@@ -109,7 +109,7 @@ Data is inserted using:
 
 5) Average Order Value (AOV) per customer.
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 1) Install MySQL Server and MySQL Workbench.
 
